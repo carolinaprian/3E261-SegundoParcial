@@ -15,9 +15,9 @@ class SerieFocos
         {
             for (auto &&f : focos)
             {
-                cout << f.LeerEstado() << endl; 
+                cout << f.LeerEstado(); 
             }
-            
+            cout << endl;
         }
         void EncenderFocos(){
             for (auto &&f : focos)

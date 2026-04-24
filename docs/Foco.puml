@@ -6,7 +6,7 @@ class Foco{
     - EstadoFoco estado
     + Encender()
     + Apagar()
-    + EstadoFoco LeerEstado()
+    + LeerEstado(): EstadoFoco
 }
 
 class EstadoFoco
