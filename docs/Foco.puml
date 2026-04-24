@@ -3,14 +3,16 @@
 class Usuario
 
 class Foco{
-    -EstadoFoco estado
-    +Encender()
-    +Apagar()
+    - EstadoFoco estado
+    + Encender()
+    + Apagar()
+    + EstadoFoco LeerEstado()
 }
+
 class EstadoFoco
-    -EstadoFoco estado
 
 Usuario o-- Foco
 Foco *-- EstadoFoco
+EstadoFoco --|> Booleano
 
 @enduml
