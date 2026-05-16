@@ -26,5 +26,7 @@ int main (int argc, char* argv[])
     cout << direccion << endl;// valor de la direccion ej, coordenada
     cout << &direccion << endl; // donde esta guardada la coordenada
     cout << *direccion << endl; // valor de la  coordenada, o sea la direccion, ej. Calle 123
+
+    cout << malloc(4) << endl;
     return 0;
 }
